@@ -1,48 +1,51 @@
-<h1>Ds consumer 1</h1>
-<p>No styles imported, no local styles</p>
+<div class="container">
+  <h1>Ds consumer 2</h1>
+  <p>Rds global styles imported via Angular build</p>
 
-<h2>Example Components</h2>
-<h3>Avatar</h3>
-<rds-avatar initials="KW"></rds-avatar>
+  <h2>Example Components</h2>
+  <h3>Avatar</h3>
+  <rds-avatar initials="KW"></rds-avatar>
 
-<h3>Offer card</h3>
-<div style="width: 300px">
-<rds-offer-card
-  offer-id="1"
-  offer-title="Activate & earn bonus points"
-  offer-description="Spend $40 at BIG W by Sun, 18th October"
-  offer-img="https://my.woolworthsrewards.com.au/sf/WCV-3112/WCV-3112_OAM.jpg"
-  offer-expiry="Booster ends 18 Oct"
-  brand="bigw"
-  activation-required="true"
-  offer-status="not-activated"
-  terms-conditions="lots of text goes here"
-  ></rds-offer-card>
+  <h3>Offer card</h3>
+  <div style="width: 300px">
+  <rds-offer-card
+    offer-id="1"
+    offer-title="Activate & earn bonus points"
+    offer-description="Spend $40 at BIG W by Sun, 18th October"
+    offer-img="https://my.woolworthsrewards.com.au/sf/WCV-3112/WCV-3112_OAM.jpg"
+    offer-expiry="Booster ends 18 Oct"
+    brand="bigw"
+    activation-required="true"
+    offer-status="not-activated"
+    terms-conditions="lots of text goes here"
+    ></rds-offer-card>
+  </div>
+
+  <h3>Circle percentage</h3>
+  <div style="width: 200px">
+    <rds-circle-percentage points="1492" totalpoints="2000">
+    </rds-circle-percentage>
+  </div>
+
+  <h3>Leaf</h3>
+  <rds-leaf brand="woolworths"></rds-leaf>
+
+  <h3>Booster Detail</h3>
+  <rds-booster-detail
+        image-url="https://my.woolworthsrewards.com.au/sf/CAT-3076/CAT-3076-Banner.jpg"
+        brand="rewards"
+        booster-title="Boost now to earn 1000 points"
+        description="Storewide in-store or online at Woolworths.* Offer expires 26 July.*"
+        booster-status="activated"
+        booster-id="12312321"
+        campaign-code="AKP-876">
+          <div slot="terms">
+              ^Promotion runs from 0:01 AEDT 31/01/19 to 23:59 AEDT 03/03/19 at Woolworths supermarkets, Woolworths Metro and Woolworths Online.PROMO_CODE=(87f8c2e8-c).hurdle=75. REWARD_VALUE=2500. Offer is not available in Tasmania. This offer is personal to you, and will be available only on your Woolworths Rewards card. Registered Woolworths Rewards members must activate their offer to participate in the promotion. To ensure your offer has been added to your Woolworths Rewards card, you must activate your offer at least 2 hours before shopping in store or online. Activation closes 23:59 AEDT. Any transactions you have made before activating your offer, will not be counted towards the qualifying amount. Spend at least $75 (the qualifying amount)* in one or more transactions in store or online during each of the 4 designated weeks of the promotion and scan your registered Woolworths Rewards card at the checkout or add it to your online account at checkout to earn  bonus Woolworths Points. To redeem your offer online at <a href='https://woolworths.com.au' class='text-wr-orange' target='_blank'>woolworths.com.au</a> you will need to ensure your registered Woolworths Rewards card number is linked to your online account. See <a href='https://woolworths.com.au' class='text-wr-orange' target='_blank'>woolworths.com.au</a> for full terms and conditions and delivery areas. For all Woolworths online transactions, orders need to be delivered or picked up by 23:59 on Sunday each week to qualify for that weeks applicable weekly spend. Your bonus points will be added to your account within 3 business days after you have completed your Week 4 qualifying amount. *Qualifying amount excludes purchases of smoking products, liquor, gift cards (including iTunes), mobile recharge, Woolworths Mobile, travel cards, tickets, cash outs, delivery charges, donations, purchases from <a href='https://www.woolworthsflowers.com.au' class='text-wr-orange' target='_blank'>www.wflowers</a>, Carpet Care, Pre-order Kiosks or purchases on a charge account. For Woolworths Rewards T&Cs visit <a href='https://www.woolworthsrewards.com.au/terms' class='text-wr-orange' target='_blank'>www.woolworthsrewards.com.au/terms</a>
+          </div>
+          <div slot="date">
+              <i class="far fa-clock mr-2"></i>Ends in <span class="has-text-accessible-orange has-text-weight-semibold">3 days</span>
+          </div>
+
+  </rds-booster-detail>
+
 </div>
-
-<h3>Circle percentage</h3>
-<div style="width: 200px">
-  <rds-circle-percentage points="1492" totalpoints="2000">
-  </rds-circle-percentage>
-</div>
-
-<h3>Leaf</h3>
-<rds-leaf brand="woolworths"></rds-leaf>
-
-<h3>Booster Detail</h3>
-<rds-booster-detail
-      image-url="https://my.woolworthsrewards.com.au/sf/CAT-3076/CAT-3076-Banner.jpg"
-      brand="rewards"
-      booster-title="Boost now to earn 1000 points"
-      description="Storewide in-store or online at Woolworths.* Offer expires 26 July.*"
-      booster-status="activated"
-      booster-id="12312321"
-      campaign-code="AKP-876">
-        <div slot="terms">
-             ^Promotion runs from 0:01 AEDT 31/01/19 to 23:59 AEDT 03/03/19 at Woolworths supermarkets, Woolworths Metro and Woolworths Online.PROMO_CODE=(87f8c2e8-c).hurdle=75. REWARD_VALUE=2500. Offer is not available in Tasmania. This offer is personal to you, and will be available only on your Woolworths Rewards card. Registered Woolworths Rewards members must activate their offer to participate in the promotion. To ensure your offer has been added to your Woolworths Rewards card, you must activate your offer at least 2 hours before shopping in store or online. Activation closes 23:59 AEDT. Any transactions you have made before activating your offer, will not be counted towards the qualifying amount. Spend at least $75 (the qualifying amount)* in one or more transactions in store or online during each of the 4 designated weeks of the promotion and scan your registered Woolworths Rewards card at the checkout or add it to your online account at checkout to earn  bonus Woolworths Points. To redeem your offer online at <a href='https://woolworths.com.au' class='text-wr-orange' target='_blank'>woolworths.com.au</a> you will need to ensure your registered Woolworths Rewards card number is linked to your online account. See <a href='https://woolworths.com.au' class='text-wr-orange' target='_blank'>woolworths.com.au</a> for full terms and conditions and delivery areas. For all Woolworths online transactions, orders need to be delivered or picked up by 23:59 on Sunday each week to qualify for that weeks applicable weekly spend. Your bonus points will be added to your account within 3 business days after you have completed your Week 4 qualifying amount. *Qualifying amount excludes purchases of smoking products, liquor, gift cards (including iTunes), mobile recharge, Woolworths Mobile, travel cards, tickets, cash outs, delivery charges, donations, purchases from <a href='https://www.woolworthsflowers.com.au' class='text-wr-orange' target='_blank'>www.wflowers</a>, Carpet Care, Pre-order Kiosks or purchases on a charge account. For Woolworths Rewards T&Cs visit <a href='https://www.woolworthsrewards.com.au/terms' class='text-wr-orange' target='_blank'>www.woolworthsrewards.com.au/terms</a>
-        </div>
-        <div slot="date">
-            <i class="far fa-clock mr-2"></i>Ends in <span class="has-text-accessible-orange has-text-weight-semibold">3 days</span>
-        </div>
-
-</rds-booster-detail>
