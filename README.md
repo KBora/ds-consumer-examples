@@ -10,6 +10,7 @@ Select css option 'sass'
 `npm install @mothershipvc/rewards-ds`
 
 ### Configure Angular to use custom elements
+See https://stenciljs.com/docs/angular
 
 
 ### Run project
