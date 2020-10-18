@@ -25,7 +25,17 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input":  "./node_modules/@mothershipvc/rewards-ds/dist/collection/assets/",
+                "output": "./assets/"
+              },
+              {
+                "glob": "**/*",
+                "input":  "./node_modules/@mothershipvc/rewards-ds/dist/assets/fonts/",
+                "output": "./assets/fonts"
+              }
             ],
             "styles": [
               "src/styles.scss"
