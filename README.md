@@ -1,6 +1,9 @@
 # DsConsumer 
 Rds global styles imported via Angular build
 
+## Git 
+https://github.com/KBora/ds-consumer-examples/tree/feature/angular-import-styles
+
 ## Steps
 
 1. Setup new Angular repository
