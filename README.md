@@ -21,7 +21,12 @@ https://github.com/KBora/ds-consumer-examples/tree/feature/angular-import-styles
       * `import { defineCustomElements } from 'node_modules/@mothershipvc/rewards-ds/dist/loader';`
       * `defineCustomElements()`;
 
-4. Import design system assets and fonts to Angular build
+4. Import rds.css into global css file eg `styles.scss`
+  ```
+  @import 'node_modules/@mothershipvc/rewards-ds/dist/rds/rds';
+  ```
+
+5. Import design system assets and fonts to Angular build
   * In `angular.json`, under `project` > `architect` > `build`:
 ```
 "assets": [
